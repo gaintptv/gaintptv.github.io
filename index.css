@@ -1,0 +1,58 @@
+
+.btn{
+  cursor: pointer;
+}
+
+
+body {
+  font-size: 2em;
+  line-height: 160%;
+  color:white;
+}
+
+
+h1{
+  font-size: 120px;
+}
+
+
+.form,
+.greetings{
+  display: none;
+}
+
+.showing {
+  display: block;
+}
+fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+
+}
+
+.bgImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  animation: fadeIn 0.5s linear;
+}
+div .test {
+  /*position:relative;*/
+  left:20px;
+  top:20px;
+  border:10;
+}
+input {
+  border:0;
+  height:50px;
+  width:500px;
+  font-size:20px;
+  border-bottom:3px solid black;
+}
